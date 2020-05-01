@@ -1,18 +1,26 @@
-html {
-    background-image: url("./img/background.jpg");
-    height:100%;
-    width:100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 80%;
-}
-
-p {
-    font-size: 30px;
-    text-align: right;
-    margin-top: 5%;
-    margin-right: 10%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#stopwatch-box {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 8em;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  #controls {
+    text-align: center;
+  }
+  
+  button {
+    background: pink;
+    border: 2px solid pink;
     color: white;
-    font-style: bold;
-}
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .btn-xlarge {
+    width: 180px;
+    height: 90px;
+    font-size: 2em;
+  }

@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="asset/reset.css">
     <link rel="stylesheet" type="text/css" href="asset/style.css">
-    <title>HangMan</title>
+    <title>STOPWATCH</title>
 </head>
-<body>
-    <p>Guess The Word</p>
-    <p>Win: <span id="win"></span></p>
-    <p>Lose: <span id="lose"></span></p>
-    <p><span id="wordToGuess"></span> </p>
-    <p>Number of Guess: <span id="numberOfGuess"></span></p>
-    <p>Your Guess: <span id="yourGuess"></span></p>
 
+<body>
+
+  <div id="stopwatch-box">
+  00:00:00
+  </div>
+
+  <div id="controls">
+    <button class="btn-xlarge" id="start">Start</button>
+    <button class="btn-xlarge" id="stop">Stop</button>
+    <button class="btn-xlarge" id="reset">Reset</button>
+    <button class="btn-xlarge" id="lap">Lap</button>
+  </div>
+
+ 
 </body>
 <script src="asset/app.js"></script>
 </html>
