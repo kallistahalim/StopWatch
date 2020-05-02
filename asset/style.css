@@ -4,23 +4,23 @@
     font-size: 8em;
     letter-spacing: 5px;
     text-align: center;
-  }
-  
-  #controls {
+}
+
+#controls {
     text-align: center;
-  }
-  
-  button {
+}
+
+button {
     background: pink;
     border: 2px solid pink;
     color: white;
     padding: 10px;
     border-radius: 5px;
     margin: 20px;
-  }
-  
-  .btn-xlarge {
+}
+
+.btn-xlarge {
     width: 180px;
     height: 90px;
     font-size: 2em;
-  }
+}
